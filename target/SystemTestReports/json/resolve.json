@@ -1,0 +1,172 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-05T16:47:00.717Z",
+        "line": 20,
+        "name": "Login to Appian environment",
+        "description": "",
+        "id": "cc-create-cost-center;login-to-appian-environment",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "I setup with \"CHROME\" browser",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I set appian URL to \"https://gfeu-m01.appiancloud.com/suite/portal/login.jsp\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I set appian version to \"21.1\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I set appian locale to \"en_GB\"",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CCFLOW1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-05T16:47:01.025Z",
+        "line": 32,
+        "name": "Login",
+        "description": "",
+        "id": "cc-create-cost-center;login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "I login with username \"username\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "I wait for progress bar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "I set appian URL to \"https://gfeu-m01.appiancloud.com/suite/sites/resolve\"",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CCFLOW1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-05T16:47:01.061Z",
+        "line": 34,
+        "name": "Fill out Create Query form",
+        "description": "",
+        "id": "cc-create-cost-center;fill-out-create-query-form",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 35,
+            "name": "I click on button \"CREATE QUERY\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "I wait for progress bar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "I populate field \"What type of query are you raising?\" with \"Data\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "I wait for progress bar",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CCFLOW1"
+          }
+        ]
+      }
+    ],
+    "name": "CC Create Cost Center",
+    "description": "",
+    "id": "cc-create-cost-center",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/healthcheck/CCFLOW1.feature",
+    "tags": [
+      {
+        "name": "@CCFLOW1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

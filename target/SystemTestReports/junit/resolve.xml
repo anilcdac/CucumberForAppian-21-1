@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.799">
+<testcase classname="CC Create Cost Center" name="Login to Appian environment" time="0.234">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I setup with "CHROME" browser.........................................undefined
+When I set appian URL to "https://gfeu-m01.appiancloud.com/suite/portal/login.jsp".skipped
+And I set appian version to "21.1"..........................................skipped
+And I set appian locale to "en_GB"..........................................skipped
+]]></failure>
+</testcase>
+<testcase classname="CC Create Cost Center" name="Login" time="0.005">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I login with username "username"......................................undefined
+And I wait for progress bar.................................................skipped
+And I set appian URL to "https://gfeu-m01.appiancloud.com/suite/sites/resolve".skipped
+]]></failure>
+</testcase>
+<testcase classname="CC Create Cost Center" name="Fill out Create Query form" time="0.016">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I click on button "CREATE QUERY"......................................undefined
+And I wait for progress bar.................................................skipped
+And I populate field "What type of query are you raising?" with "Data"......skipped
+And I wait for progress bar.................................................skipped
+]]></failure>
+</testcase>
+</testsuite>
